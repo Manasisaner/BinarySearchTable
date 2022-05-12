@@ -51,5 +51,9 @@ namespace BinarySearch
                 this.RighttTree.Display();
             }
         }
+        public void GetSize()
+        {
+            Console.WriteLine("Size" + " " + (1 + this.leftcount + this.rightcount));
+        }
     }
 }
